@@ -1,0 +1,76 @@
+*{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}nav{
+    background-color: rgba(17, 6, 6, 0.021);
+    padding: 20px;
+    margin: none;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}section{
+   /* background-color: blue;*/
+    display: flex;
+    padding: 10px;
+    margin: none;
+    justify-content: center;
+    
+}body{
+    background-color: white;
+    padding: 0px;
+    margin: 0;
+}a{
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+
+}h1{
+    align-content: center;
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}a.logo{
+   background-color: transparent;
+   backdrop-filter: blur(20px);
+    text-indent: -99999px;
+    width: 300px;
+    height: 100px;
+    background-image: url(/car-png-logo-hd-transparent-png-50241.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    top: -20px;
+    
+}footer{
+    background: black;
+   
+}img{
+    border-radius: 50%;
+    align-self: center;
+    width: 100%;
+    margin: 0px;
+    padding: opx;
+    transition: border-radius 0.5s ease;
+
+}img:hover{
+    border-radius: 10px;
+}figcaption{
+    text-align: center;
+}header{
+    background-image: url(/674a13d9-c360-49ee-b11d-cc1477d56af5-Bugatti-Divo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}div{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
